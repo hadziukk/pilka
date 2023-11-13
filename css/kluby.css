@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+#jeden{
+    display: flex;
+}
+#logo{
+    width: 40%;
+}
+#nazwa{
+    width: 60%;
+    margin-top:5%;
+}
+#opis{
+    width: 40%;
+    padding: 3%;
+}
+#skl{
+    width: 60%;
+}
+#dwa {
+    display: flex;
+}
+#dwa div{
+    flex-grow: 1;
+}
+#tabs{
+    margin:5%;
+}

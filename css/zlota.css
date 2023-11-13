@@ -1,0 +1,45 @@
+main{
+    display:flex;
+    flex-direction: column;
+}
+#podium{    
+    display: flex;
+}
+#podium div{
+    width: 33%;
+}
+#reszta{
+    display: flex;
+}
+#reszta div{
+    flex-grow:1;
+
+}
+img{
+    width: 40%;
+}
+#effect {
+    position: relative;
+    width: 40%;
+    height: 30%;
+    padding: 0.4em;
+    margin-left: 35%;
+}
+#effect h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+}
+
+#effect2 {
+    position: relative;
+    width: 40%;
+    height: 30%;
+    padding: 0.4em;
+    margin-left: 35%;
+}
+#effect2 h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+}
