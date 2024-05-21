@@ -1,95 +1,16 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/ind.css">
-    <link rel="stylesheet" href="c.css">
-    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="jquery-ui/jquery-ui.js" ></script>
-    <script src="js/inde.js"></script>
-    <script src="js/js.js"></script>
- 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="conn.js" ></script>
+    <title>Form</title>
 </head>
 <body>
-    <header>
-        <h1>Piłka</h1>
-    </header>
-    <nav>
-        <div class="pkt">
-            <a href="index.html" > <h4>Strona główna</h4></a>
-        </div>
-        <div class="pkt" id="klu" >
-            <div id="expandableDiv">
-                <h4>Kluby</h4>
-                <div id="listContainer">
-                  <ul>
-                    <a href="html/barcelona.html"><li>Barcelona</li></a>
-                    <a href="html/real.html"><li>Real</li></a>
-                    <a href="html/bayern.html"><li>Bayern</li></a>
-                  </ul>
-                </div>
-              </div>
-        </div>
-        <div class="pkt">
-            <a href="html/zlota.html"><h4>Złota piłka</h4></a>
-        </div>
-        <div class="pkt">
-            <a href="html/galeria.html"><h4>Galeria</h4></a>
-        </div>
-    </nav>
-    <main>
-        <div id="main_jeden">
-            <h1>pilka123</h1>
-            <h3>Piłka nożna</h3>
-            <p>to gra zespołowa, w której dwie drużyny starają się zdobyć w określonym czasie
-             jak najwięcej punktów poprzez wbicie piłki do bramki przeciwnika;
-             najpopularniejsza dyscyplina sportowa z około 4 miliardami fanów na całym świecie</p>
-        </div>
-        <h3>Zasady:</h3>
-        <div id="sr" >
-            <br>
-            <div class="toggler">
-                <div id="effect" class="ui-widget-content ui-corner-all">
-                  <h3 class="ui-widget-header ui-corner-all">Drużyny</h3>
-                  <p>
-                    Dwie drużyny, każda złożona z jedenastu graczy (w tym bramkarza), rywalizują ze sobą na boisku.
-                  </p>
-                </div>
-            </div>
-            <div class="toggler">
-                <div id="effect2" class="ui-widget-content ui-corner-all">
-                  <h3 class="ui-widget-header ui-corner-all">Czas gry</h3>
-                  <p>
-                    Mecz składa się z dwóch połówek po 45 minut (w profesjonalnym futbolu). W przypadku remisu, może nastąpić dogrywka lub seria rzutów karnych.
-                  </p>
-                </div>
-            </div>
-            <div class="toggler">
-                <div id="effect3" class="ui-widget-content ui-corner-all">
-                  <h3 class="ui-widget-header ui-corner-all">Cel gry</h3>
-                  <p>
-                    Celem jest zdobycie większej liczby bramek niż przeciwna drużyna. Bramki zdobywa się poprzez umieszczenie piłki w bramce przeciwnika.
-                  </p>
-                </div>
-            </div>
-        </div>
-        <div id="main_trzy" >
-            <h3>Źródła:</h3>
-            -<a href="https://www.flashscore.pl/">flashscore</a><br>
-            -<a href="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna">Wikipedia</a><br>
-        </div>
-    </main>
-
-    <footer>
-        <div id="a" >
-            <h3>dziekuje za czytanie</h3>
-        </div>
-        <div id="b">
-            sociale:<br>
-            -<a href="https://twitter.com/" >twitter</a><br>
-            -<a href="https://www.youtube.com/" >youtube</a>
-        </div>
-    </footer>
+    imie<input type="text" id="imie" >
+    nazwiko<input type="text" id="nazwisko" >
+    pesel<input type="number" id="pesel" >
+    <input type="button" onclick="abc()" value="wylij">
 </body>
 </html>
