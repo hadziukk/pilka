@@ -1,8 +1,0 @@
-#zdj{
-    display:flex;
-    flex-direction: column;
-}
-main #zdj img{
-    margin-left:40%;
-    margin-right:40%;
-}
